@@ -59,7 +59,7 @@ export const Print = {
 		return `✖ ${buildProductString(link, store)} :: CAPTCHA`;
 	},
 	inStock(link: Link, store: Store, color?: boolean, sms?: boolean): string {
-		const productString = `${buildProductString(link, store)} :: IN STOCK`;
+		const productString = `${buildProductString(link, store)} :: IN STOCK <!channel>`;
 
 		if (color) {
 			return chalk.bgGreen.white.bold(`🚀🚨 ${productString} 🚨🚀`);

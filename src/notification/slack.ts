@@ -4,13 +4,19 @@ import {WebClient} from '@slack/web-api';
 import {config} from '../config';
 
 const slack = config.notifications.slack;
-const channel = slack.channel;
+let channel = slack.channel;
 const token = slack.token;
 const web = new WebClient(token);
 
 export function sendSlackMessage(link: Link, store: Store) {
 	if (slack.channel && slack.token) {
 		logger.debug('↗ sending slack message');
+
+		if (link.series == '3070') {
+			channel = 'tracker-bot-3070'
+		} else {
+			channel = 'tracker-bot-3080'
+		}
 
 		(async () => {
 			const givenUrl = link.cartUrl ? link.cartUrl : link.url;

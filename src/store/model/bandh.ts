@@ -27,6 +27,12 @@ export const BAndH: Store = {
 		// 	url: 'https://www.bhphotovideo.com/c/product/1593649-REG/asus_tuf_rtx3080_10g_gaming_tuf_gaming_geforce_rtx.html'
 		// },
 		{
+			brand: 'amd',
+			model: 'ryzen7',
+			series: '5800x',
+			url: 'https://www.bhphotovideo.com/c/product/1598376-REG/amd_100_100000063wof_ryzen_7_5800x_3_8.html'
+		},
+		{
 			brand: 'gigabyte',
 			model: 'gaming oc',
 			series: '3080',

@@ -19,6 +19,13 @@ export const BestBuy: Store = {
 			url: 'https://www.bestbuy.com/site/evga-ko-ultra-gaming-nvidia-geforce-rtx-2060-6gb-gddr6-pci-express-3-0-graphics-card-black-gray/6403801.p?skuId=6403801&intl=nosplash'
 		},
 		{
+			brand: 'amd',
+			cartUrl: 'https://api.bestbuy.com/click/-/6439000/cart',
+			model: 'ryzen7',
+			series: '5800x',
+			url: 'https://www.bestbuy.com/site/amd-ryzen-7-5800x-4th-gen-8-core-16-threads-unlocked-desktop-processor-without-cooler/6439000.p?skuId=6439000&intl=nosplash'
+		},
+		{
 			brand: 'nvidia',
 			cartUrl: 'https://api.bestbuy.com/click/-/6429442/cart',
 			model: 'founders edition',

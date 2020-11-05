@@ -23,6 +23,13 @@ export const Amazon: Store = {
 			url: 'https://www.amazon.com/dp/B07TDN1SC5'
 		},
 		{
+			brand: 'amd',
+			cartUrl: 'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0815XFSGK&Quantity.1=1',
+			model: 'ryzen7',
+			series: '5800x',
+			url: 'https://www.amazon.com/dp/B0815XFSGK'
+		},
+		{
 			brand: 'pny',
 			cartUrl: 'https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B08HBR7QBM&Quantity.1=1',
 			model: 'xlr8',

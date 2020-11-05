@@ -25,6 +25,14 @@ export const Newegg: Store = {
 			url: 'https://www.newegg.com/zotac-geforce-rtx-2060-zt-t20600k-10m/p/N82E16814500495'
 		},
 		{
+			brand: 'amd',
+			cartUrl: 'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=2E16819113665',
+			itemNumber: '19-113-665',
+			model: 'ryzen7',
+			series: '5800x',
+			url: 'https://www.newegg.com/amd-ryzen-7-5800x/p/N82E16819113665'
+		},
+		{
 			brand: 'asus',
 			cartUrl: 'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126453',
 			itemNumber: '14-126-453',
